@@ -1,0 +1,33 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				"type" : "form",
+				"shadow" : "off",
+				"fields" : [ 
+					{  "type" : "para", "id" : "para", "size" : 12, "label" : "The Apache OpenNLP library is a machine learning based toolkit for the processing of natural language text. It supports the most common NLP tasks, such as tokenization, sentence segmentation, part-of-speech tagging, named entity extraction, chunking, parsing, and coreference resolution. These tasks are usually required to build more advanced text processing services. OpenNLP also included maximum entropy and perceptron based machine learning." },
+					{  "type" : "para", "id" : "para", "size" : 12, "label" : "" },
+					{  "type" : "para", "id" : "para", "size" : 12, "label" : "The goal of the OpenNLP project will be to create a mature toolkit for the abovementioned tasks. An additional goal is to provide a large number of pre-built models for a variety of languages, as well as the annotated text resources that those models are derived from." },
+					{  "type" : "para", "id" : "para", "size" : 12, "label" : "" },
+					{  "type" : "para", "id" : "para", "size" : 12, "label" : "The Apache OpenNLP library contains several components, enabling one to build a full natural language processing pipeline." }
+				]
+			} , {
+				"type" : "table",
+				"id" : "tools",
+				"data" : { "id" : "tools", "type" : "action", "rows" : [ 
+					{ "tool" : "Sentence Detector" },
+					{ "tool" : "Tokenizer" },
+					{ "tool" : "Name Finder" },
+					{ "tool" : "Document Categorizer" },
+					{ "tool" : "Part-of-Speech Tagger" },
+					{ "tool" : "Chunker" },
+					{ "tool" : "Parser" },
+					{ "tool" : "Coreference" }
+				] },
+				"columns" : [ 
+					{ "header" :  "These components include:", "name" : "tool" }
+				]
+			} ]
+	  	} ]
+	} ]
+}

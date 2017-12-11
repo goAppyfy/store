@@ -1,0 +1,37 @@
+{
+	"parentPage1" : "outlets",
+
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				
+				"type" : "form",
+				"mode" : "search", 
+				"data" : { "id" : "products", "name" : "Products", "type" : "Search" },
+				"resultPage" : "products",
+				"fields" : [ {
+					"type" : "text", "id" : "name", "placeholder" : "Search by Name"
+	
+					} , {
+					"type" : "text", "id" : "barCode", "placeholder" : "Search by Bar Code", "size" : "5"
+					} , {
+					"type" : "button", "id" : "scan", "value" : "|||", "action" : { "func" : "scan('barCode')" } , "size" : "1"
+	
+					} , {
+					"type" : "label", "id" : "browse", "label" : "Browse by Category / Sub Category / Brand", "size" : "12"
+					} , {
+	
+					"type" : "select", "id" : "cat", "label" : "Category", "size" : "4", 
+					"data" : { "id" : "catOptions", "name" : "ProductTypeValues", "params" : { "type" : "Cat", "parent" : "" } },
+					"chain" : { "data" : { "id": "sCatOptions", "name" : "ProductTypeValues", "params" : { "type" : "SubCat" } } }
+					} , {
+					"type" : "select", "id" : "sCat", "label" : "Sub Category", "size" : "4", 
+					"data" : { "id" : "sCatOptions", "name" : "ProductTypeValues" }
+					} , {
+					"type" : "select", "id" : "brand", "label" : "Brand", "size" : "4",
+					"data" : { "id" : "brandOptions", "name" : "ProductTypeValues", "params" : { "type" : "Brand", "parent" : "" } }
+				} ]
+			} ]
+	  	} ]
+	} ]
+}

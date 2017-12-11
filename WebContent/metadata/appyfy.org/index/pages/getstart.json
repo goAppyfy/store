@@ -1,0 +1,17 @@
+{
+	"parentPage" : "home",
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				
+				"type" : "form",
+				"fields" : [
+					{  "type" : "label", "id" : "date", "label" : "Get, Set, Go..." }
+				],
+				
+				"mode" : "readonly",
+				"shadow" : "off"
+			} ]
+	  	} ]
+	} ]
+}

@@ -1,0 +1,22 @@
+{
+	"rows" : [
+	{
+		"columns" : [
+ 	  	{
+ 	  		
+ 	  		"panels" : [
+ 	  		{
+ 	  			"type" : "form",
+				"fields" : [
+					{ "type" : "link_button", "id" : "seller", "title" : "Seller", "link" : "#/seller" },
+					{ "type" : "link_button", "id" : "buyer", "title" : "Buyer", "link" : "#/buyer" }
+				],
+				
+				"mode" : "readonly"
+			}
+			]
+	  	}
+  		]
+	}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				
+				"type" : "form",
+				"data" : { "id" : "upcoming", "name" : "Activity" },				
+				"fields" : [
+					{  "size" : 12, "type" : "label", "id" : "name" },
+					{  "size" : 12, "type" : "label", "id" : "desc" }
+				],
+				"mode" : "readonly"				
+			} ]
+	  	} ]
+	} ]
+}

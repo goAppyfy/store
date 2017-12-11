@@ -1,0 +1,35 @@
+{
+
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				
+				"type" : "form",
+				"fields" : [ {
+
+					"type" : "text", "id" : "lat", "placeholder" : "Latitude", "size" : "4"
+					} , {
+					"type" : "text", "id" : "long", "placeholder" : "Longitude", "size" : "4"
+					} , {
+					"type" : "button", "id" : "pos", "value" : "O", "action" : { "func" : "watchPosition('lat','long')" } , "size" : "2"
+	
+					} , {
+					"type" : "text", "id" : "y", "placeholder" : "Y", "size" : "4"
+					} , {
+					"type" : "text", "id" : "z", "placeholder" : "Z", "size" : "4"
+					} , {
+					"type" : "button", "id" : "acc", "value" : "#", "action" : { "func" : "watchAcceleration('x','y','z')" } , "size" : "2"
+
+					} , {
+					"type" : "text", "id" : "idle", "placeholder" : "idle", "size" : "8"
+
+					} , {
+					"type" : "sparkline", "id" : "dy", "placeholder" : "dY", "size" : "12"
+					} , {
+					"type" : "sparkline", "id" : "dz", "placeholder" : "dZ", "size" : "12"
+
+				} ]
+			} ]
+	  	} ]
+	} ]
+}

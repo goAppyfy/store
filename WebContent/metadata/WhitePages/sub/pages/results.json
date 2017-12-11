@@ -1,0 +1,11 @@
+{
+	"parentPage" : "search",
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+  				"type" :  "preview",
+  				"data" : { "id" : "results", "name" : "Places", "params" : { "type" : "Outlet" } }
+			} ]
+	  	} ]
+	} ]
+}

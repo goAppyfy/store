@@ -1,0 +1,23 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				"type" : "form",
+				"fields" : [ {  "type" : "slider", "id" : "slider", "size" : 12 } ],
+				"mode" : "readonly"
+			} , {
+				"type" : "form",
+				"shadow" : "off",
+				"data" : { "id" : "home", "name" : "Information", "params" : { "type" : "home" } },
+				"fields" : [
+					{  "type" : "label", "id" : "to", "label" : "Dear Parents, ", "size" : 7 },
+					{  "type" : "label", "id" : "date", "size" : 5 },
+					{  "type" : "para", "id" : "speech", "size" : "12" },
+					{  "type" : "label", "id" : "people", "size" : "6"  },
+					{  "type" : "label", "id" : "place", "size" : 12  }
+				],
+				"mode" : "readonly"				
+			} ]
+	  	} ]
+	} ]
+}

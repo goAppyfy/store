@@ -1,0 +1,17 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				"id" : "reminders",
+  				"type" :  "list",
+  				"data" : { "id" : "reminders", "heading" : "displayName", "text" : "birthday", "rows" : [ {
+  					"displayName" : "Test", "birthday" : "28-Aug", "phoneNumber" : { "value" : "xxxxxxxxxxx" },  "photo" : { "value" : "" }, "wishes" : "Many Many Happy Returns of the Day"
+  				} ] },
+				"action" : { 
+					"primary" : { "func" : "loadPageAction", "params" : { "name" : "wish", "header" : "Wish", "data" : { "id" : "contact" } } },
+					"secondary1" : { "name" : "", "func" : "share()" }
+				}
+			} ]
+	  	} ]
+	} ]
+}

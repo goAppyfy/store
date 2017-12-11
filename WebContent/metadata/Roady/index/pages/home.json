@@ -1,0 +1,57 @@
+{
+
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				
+				"type" : "form",
+				"fields" : [ {
+					"type" : "text", "id" : "barCode", "placeholder" : "Search by Bar Code", "size" : "11"
+					} , {
+					"type" : "button", "id" : "scan", "value" : "|||", "action" : { "func" : "scan('barCode')" } , "size" : "1"
+	
+					} , {
+					"type" : "text", "id" : "lat", "placeholder" : "Latitude", "size" : "6"
+					} , {
+					"type" : "text", "id" : "long", "placeholder" : "Longitude", "size" : "5"
+					} , {
+					"type" : "button", "id" : "pos", "value" : "O", "action" : { "func" : "watchPosition('lat','long')" } , "size" : "1"
+	
+					} , {
+					"type" : "text", "id" : "x", "placeholder" : "X", "size" : "6"
+					} , {
+					"type" : "sparkline", "id" : "dx", "placeholder" : "dX", "size" : "5"
+
+					} , {
+					"type" : "text", "id" : "y", "placeholder" : "Y", "size" : "6"
+					} , {
+					"type" : "sparkline", "id" : "dy", "placeholder" : "dY", "size" : "5"
+
+					} , {
+					"type" : "text", "id" : "z", "placeholder" : "Z", "size" : "6"
+					} , {
+					"type" : "sparkline", "id" : "dz", "placeholder" : "dZ", "size" : "5"
+
+					} , {
+					"type" : "button", "id" : "acc", "value" : "#", "action" : { "func" : "watchAcceleration('x','y','z')" } , "size" : "1"
+
+					} , {
+					"type" : "text", "id" : "heading", "placeholder" : "Heading", "size" : "11"
+					} , {
+					"type" : "button", "id" : "mot", "value" : "^", "action" : { "func" : "watchHeading('heading')" } , "size" : "1"
+
+					} , {
+					"type" : "thumbnail", "id" : "img", "size" : "11"
+					} , {
+					"type" : "button", "id" : "capt", "value" : "()", "action" : { "func" : "getPicture('img')" } , "size" : "1"
+
+					} , {
+					"type" : "button", "id" : "Login", "value" : "Login", "action" : { "func" : "login()" } , "size" : "1"
+					} , {
+					"type" : "button", "id" : "Logout", "value" : "Logout", "action" : { "func" : "logout()" } , "size" : "1"
+
+				} ]
+			} ]
+	  	} ]
+	} ]
+}

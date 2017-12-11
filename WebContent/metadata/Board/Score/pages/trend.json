@@ -1,0 +1,16 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				"type" : "table",
+				"data" : { "id" : "tools", "type" : "action", "rows" : [ 
+					{ "name" : "Resource 1 " },
+					{ "name" : "Resource 2 " }
+				] },
+				"columns" : [ 
+					{ "header" :  "Resources", "name" : "name" }
+				]
+			} ]
+	  	} ]
+	} ]
+}

@@ -1,0 +1,21 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				
+				"type" : "form",
+				"data" : { "id" : "contactus", "name" : "Information", "params" : { "type" : "contactus" } },
+				"fields" : [
+					{  "size" : 12, "type" : "label", "id" : "address", "label" : "Address : "},
+					{  "size" : 12, "type" : "label", "id" : "phone", "label" : "Phone : " },
+					{  "size" : 12, "type" : "label", "id" : "mob", "label" : "Mob. : " },
+					{  "size" : 12, "type" : "label", "id" : "email", "label" : "E-mail : " },
+					{  "size" : 12, "type" : "label", "id" : "website", "label" : "Website : " },
+					{  "size" : 12, "type" : "label", "id" : "followus", "label" : "Follow us : " }
+				],
+				
+				"mode" : "readonly"				
+			} ]
+	  	} ]
+	} ]
+}

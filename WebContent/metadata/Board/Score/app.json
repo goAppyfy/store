@@ -1,0 +1,6 @@
+{
+	"title"		:	"Scoreboard",
+	"navbar"	:	"HIDDEN",
+	"footer"	:	"HIDDEN",
+	"homePage"	:	{ "header" : "Trends", "name" : "trend" }
+}

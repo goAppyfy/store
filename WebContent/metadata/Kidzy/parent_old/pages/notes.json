@@ -1,0 +1,14 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				
+				"type" : "form",
+				"fields" : [
+					{  "size" : 12, "type" : "label", "id" : "h2", "label" : "Note :  Parent Teacher Meeting which was scheduled to be held on 30.04.2016 was postoned to a future date in the month of May i.e. 07.05.2016 (Saturday), however those parents who have specially allotted tomorrow’s day for their child can come to School tomorrow at 9:00 a.m. and interact with the respective teachers." }
+				],
+				"mode" : "readonly"				
+			} ]
+	  	} ]
+	} ]
+}

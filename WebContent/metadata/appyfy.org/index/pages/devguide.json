@@ -1,0 +1,17 @@
+{
+	"parentPage" : "home",
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				
+				"type" : "form",
+				"fields" : [
+					{  "type" : "label", "id" : "date", "label" : "Coming Soon..." }
+				],
+				
+				"mode" : "readonly",
+				"shadow" : "off"
+			} ]
+	  	} ]
+	} ]
+}

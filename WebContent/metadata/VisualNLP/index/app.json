@@ -1,0 +1,6 @@
+{
+	"title"		:	"Visual NLP",
+	"navbar"	:	"HIDDEN",
+	"copyright"	:	"Visual NLP Foundation",
+	"homePage" 	: 	{ "header" : "Visual NLP", "name" : "index" } 
+}

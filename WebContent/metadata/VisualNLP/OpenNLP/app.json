@@ -1,0 +1,6 @@
+{
+	"title"		:	"Visual NLP",
+	"navbar"	:	"YES",
+	"footer"	:	"HIDDEN",
+	"homePage"	:	{ "header" : "Open NLP", "name" : "home" }
+}

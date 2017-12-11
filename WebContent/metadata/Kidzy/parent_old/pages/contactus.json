@@ -1,0 +1,20 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				
+				"type" : "form",
+				"fields" : [
+					{  "size" : 12, "type" : "label", "id" : "address", "label" : "Address :  Sector -38, Next To Medanta Hospital, Gurgaon" },
+					{  "size" : 12, "type" : "label", "id" : "phone", "label" : "Phone :  0124 - 2306064" },
+					{  "size" : 12, "type" : "label", "id" : "mob", "label" : "Mob. :  9999700563" },
+					{  "size" : 12, "type" : "label", "id" : "email", "label" : "E-mail :  admin@alpineconventschool.com" },
+					{  "size" : 12, "type" : "label", "id" : "website", "label" : "Website :  www.alpineconventschool.com" },
+					{  "size" : 12, "type" : "label", "id" : "followus", "label" : "Follow us :  www.facebook.com/alpineconventschool.com www.youtube.com/alpineconventschool.com" }
+				],
+				
+				"mode" : "readonly"				
+			} ]
+	  	} ]
+	} ]
+}

@@ -1,0 +1,64 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				
+				"type" : "form",
+				"mode" : "edit",
+				"data" : { "id" : "accounts", "name" : "Account" },
+
+				"fields" : [ {
+					"type" : "text", "id" : "code", "placeholder" : "Code", "size" : "4"
+				} , {
+					"type" : "text", "id" : "name", "placeholder" : "Name", "size" : "8"
+				} , {
+					"type" : "text", "id" : "type", "placeholder" : "Type", "size" : "6"
+				} , {
+					"type" : "text", "id" : "group", "placeholder" : "Category", "size" : "6"
+				} , {
+					"type" : "text", "id" : "uom", "placeholder" : "Unit", "size" : "4"
+				} ]
+			} , {
+				
+				"header" : "Accounts",
+				"type" : "form",
+				"mode" : "edit",
+				"data" : { "id" : "productAccounts", "name" : "ProductAccount" },
+
+				"fields" : [ {
+					"type" : "text", "id" : "sale", "placeholder" : "Sale Account", "size" : "6"
+				} , {
+					"type" : "text", "id" : "purchase", "placeholder" : "Purchase Account", "size" : "6"
+				} , {
+					"type" : "text", "id" : "expense", "placeholder" : "Expense Account", "size" : "6"
+				} , {
+					"type" : "text", "id" : "other", "placeholder" : "Other Account", "size" : "6"
+				} ]
+			} , {
+				
+				"header" : "Batch Information",
+				"type" : "form",
+				"mode" : "edit",
+				"data" : { "id" : "productBatch", "name" : "ProductBatch" },
+
+				"fields" : [ {
+					"type" : "text", "id" : "batch", "placeholder" : "Batch", "size" : "12"
+				} , {
+					"type" : "text", "id" : "mfg", "placeholder" : "Mfg. Date", "size" : "6"
+				} , {
+					"type" : "text", "id" : "expiry", "placeholder" : "Expiry Date", "size" : "6"
+				} , {
+					"type" : "text", "id" : "mfg", "placeholder" : "Mfr'r", "size" : "6"
+				} , {
+					"type" : "text", "id" : "mfg", "placeholder" : "Company", "size" : "6"
+				} , {
+					"type" : "text", "id" : "mrp", "placeholder" : "M.R.P.", "size" : "4"
+				} , {
+					"type" : "text", "id" : "prate", "placeholder" : "Pur. Rate", "size" : "4"
+				} , {
+					"type" : "text", "id" : "srate", "placeholder" : "Sale Rate", "size" : "4"
+				} ]
+			} ]
+	  	} ]
+	} ]
+}

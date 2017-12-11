@@ -1,0 +1,17 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+  				"type" :  "form",
+  				"data" : { "id" : "homeassign", "name" : "Information", "params" : { "type" : "homeassign" } },
+  				"fields" : [ {
+	  				"type" :  "table",
+						"columns" : [ 
+						{ "header" :  "Subject", "name" : "sub" },
+						{ "header" :  "Assignment", "name" : "assign" }
+					]
+				} ]
+			} ]
+		} ]
+	} ]
+}

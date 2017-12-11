@@ -1,0 +1,17 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				
+				"type" : "form",
+				"fields" : [
+					{  "type" : "label", "id" : "h1", "label" : "Magical Word : HAPPY", "size" : "12"  },
+					{  "type" : "label", "id" : "h2", "label" : "FLOWER POWER DAY : Our little children were extremely happy and excited about today Celebrations. Each child was dressed up as a beautiful flower. Students like Ridai, Myra, Alen were amazingly adorable. We thank the parents for helping us make today a memorable one", "size" : "12"  }
+					
+				],
+				
+				"mode" : "readonly"				
+			} ]
+	  	} ]
+	} ]
+}

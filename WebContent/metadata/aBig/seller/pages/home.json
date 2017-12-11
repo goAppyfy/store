@@ -1,0 +1,20 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				"type" : "form",
+				"fields" : [ {  "type" : "slider", "id" : "slider", "size" : 12 } ],
+				"mode" : "readonly"
+			} , {
+				"id" : "actions", 
+				"type" :  "list",
+  				"data" : { "id" : "actions", "heading" : "name", "text" : "desc", "rows" : [ { 
+  					"name" : "Register your Store", "desc" : "Set display picture and address details", 
+  						"params" : { "header" : "Products" , "name" : "display" } } , {
+  					"name" : "Manage Product", "desc" : "Add/Edit Products to your Cataloge", 
+  						"params" : { "header" : "Products" , "name" : "products" } } ] },
+				"action" : { "primary" : { "func" : "loadPageAction" } }
+			} ]
+	  	} ]
+	} ]
+}

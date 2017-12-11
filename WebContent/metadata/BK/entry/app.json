@@ -1,0 +1,6 @@
+{
+	"title"		:	"BK-Entry",
+	"navbar"	:	"LEFT",
+	"homePage"	:	{ "header" : "PO", "name" : "purchase" }
+	
+}

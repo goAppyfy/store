@@ -1,0 +1,11 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				"type" : "form",
+				"fields" : [ {  "type" : "slider", "id" : "slider", "size" : 12 } ],
+				"mode" : "readonly"
+			} ]
+	  	} ]
+	} ]
+}

@@ -1,0 +1,78 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				
+				"type" : "form",
+				"mode" : "edit",
+				"data" : { "id" : "accounts", "name" : "Account" },
+
+				"fields" : [ {
+					"type" : "text", "id" : "code", "placeholder" : "Code", "size" : "4"
+				} , {
+					"type" : "text", "id" : "name", "placeholder" : "Name", "size" : "8"
+				} , {
+					"type" : "text", "id" : "level", "placeholder" : "Dr/Cr/Nill", "size" : "4"
+				} , {
+					"type" : "text", "id" : "opening", "placeholder" : "Opening Balance", "size" : "8"
+				} , {
+					"type" : "text", "id" : "type", "placeholder" : "Type", "size" : "6"
+				} , {
+					"type" : "text", "id" : "group", "placeholder" : "Group", "size" : "6"
+				} ]
+			} , {
+				
+				"header" : "Address",
+				"type" : "form",
+				"mode" : "edit",
+				"data" : { "id" : "address", "name" : "Address" },
+
+				"fields" : [ { 
+					"type" : "text", "id" : "line1", "placeholder" : "Line 1", "size" : "6"
+				}, { 
+					"type" : "text", "id" : "line2", "placeholder" : "Line 2", "size" : "6"
+				} , { 
+					"type" : "text", "id" : "state", "placeholder" : "State", "size" : "6"
+				} , { 
+					"type" : "text", "id" : "city", "placeholder" : "City", "size" : "6"
+				} , { 
+					"type" : "text", "id" : "postal", "placeholder" : "Postal Code", "size" : "6"
+				} , { 
+					"type" : "text", "id" : "phone", "placeholder" : "Phone No.", "size" : "6"
+				} ]
+			} , {
+				
+				"header" : "Legal",
+				"type" : "form",
+				"mode" : "edit",
+				"data" : { "id" : "legal", "name" : "Legal" },
+
+				"fields" : [ { 
+					"type" : "text", "id" : "gst", "placeholder" : "GST No.", "size" : "6"
+				}, { 
+					"type" : "text", "id" : "cst", "placeholder" : "CST/TIN No.", "size" : "6"
+				} , { 
+					"type" : "text", "id" : "pan", "placeholder" : "PAN No.", "size" : "6"
+				}, { 
+					"type" : "text", "id" : "adhaar", "placeholder" : "Adhaar No.", "size" : "6"
+				} , { 
+					"type" : "text", "id" : "phone", "placeholder" : "Phone No.", "size" : "6"
+				} ]
+			} , {
+				
+				"header" : "Bank",
+				"type" : "form",
+				"mode" : "edit",
+				"data" : { "id" : "bank", "name" : "Bank" },
+
+				"fields" : [ { 
+					"type" : "text", "id" : "bankName", "placeholder" : "Bank Name", "size" : "6"
+				}, { 
+					"type" : "text", "id" : "bankCode", "placeholder" : "Bank Code", "size" : "6"
+				} , { 
+					"type" : "text", "id" : "bankAc", "placeholder" : "Bank Account No.", "size" : "12"
+				} ]
+			} ]
+	  	} ]
+	} ]
+}

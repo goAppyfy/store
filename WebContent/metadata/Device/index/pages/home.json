@@ -1,0 +1,82 @@
+{
+
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				
+				"type" : "form",
+				"fields" : [ {
+					"type" : "text", "id" : "barCode", "placeholder" : "Search by Bar Code", "size" : "8"
+					} , {
+					"type" : "button", "id" : "scan", "value" : "|||", "action" : { "func" : "scan('barCode')" } , "size" : "1"
+	
+					} , {
+					"type" : "text", "id" : "lat", "placeholder" : "Latitude", "size" : "4"
+					} , {
+					"type" : "text", "id" : "long", "placeholder" : "Longitude", "size" : "4"
+					} , {
+					"type" : "button", "id" : "pos", "value" : "O", "action" : { "func" : "watchPosition('lat','long')" } , "size" : "1"
+	
+					} , {
+					"type" : "text", "id" : "x", "placeholder" : "X", "size" : "8"
+					} , {
+					"type" : "sparkline", "id" : "dx", "placeholder" : "dX", "size" : "8"
+
+					} , {
+					"type" : "text", "id" : "y", "placeholder" : "Y", "size" : "8"
+					} , {
+					"type" : "sparkline", "id" : "dy", "placeholder" : "dY", "size" : "8"
+
+					} , {
+					"type" : "text", "id" : "z", "placeholder" : "Z", "size" : "8"
+					} , {
+					"type" : "sparkline", "id" : "dz", "placeholder" : "dZ", "size" : "8"
+
+					} , {
+					"type" : "button", "id" : "acc", "value" : "#", "action" : { "func" : "watchAcceleration('x','y','z')" } , "size" : "8"
+
+					} , {
+					"type" : "text", "id" : "heading", "placeholder" : "Heading", "size" : "8"
+					} , {
+					"type" : "button", "id" : "mot", "value" : "^", "action" : { "func" : "watchHeading('heading')" } , "size" : "1"
+
+					} , {
+					"type" : "thumbnail", "id" : "img", "path" : "noimage.png", "size" : "8"
+					} , {
+					"type" : "button", "id" : "capt", "value" : "()", "action" : { "func" : "capture('img')" } , "size" : "1"
+
+					} , {
+					"type" : "button", "id" : "Login", "value" : "Login", "action" : { "func" : "login()" } , "size" : "4"
+					} , {
+					"type" : "button", "id" : "Logout", "value" : "Logout", "action" : { "func" : "logout()" } , "size" : "4"
+
+					} , {
+					"type" : "button", "id" : "Track", "value" : "Track", "action" : { "func" : "track()" } , "size" : "8"
+
+					} , {
+					"type" : "text", "id" : "sharetext", "size" : "8"
+					} , {
+					"type" : "button", "id" : "Share", "value" : "Share", "action" : { "func" : "share('sharetext')" } , "size" : "1"
+
+					} , {
+					"type" : "text", "id" : "contact", "size" : "8"
+					} , {
+					"type" : "button", "id" : "Find", "value" : "Find", "action" : { "func" : "findContact('contact')" } , "size" : "1"
+
+					} , {
+					"type" : "text", "id" : "note", "size" : "8"
+					} , {
+					"type" : "button", "id" : "Notify", "value" : "Notify", "action" : { "func" : "notify('note')" } , "size" : "1"
+
+					} , {
+					"type" : "text", "id" : "filePath", "size" : "12"
+					} , {
+					"type" : "button", "id" : "Selector", "value" : "Select", "action" : { "func" : "selectFile('filePath')" } , "size" : "6"
+					} , {
+					"type" : "button", "id" : "Upload", "value" : "Upload", "action" : { "func" : "uploadFile('filePath')" } , "size" : "6"
+
+				} ]
+			} ]
+	  	} ]
+	} ]
+}

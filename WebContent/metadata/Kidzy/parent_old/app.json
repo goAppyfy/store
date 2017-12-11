@@ -1,0 +1,5 @@
+{
+	"title"		:	"Kidz Diary - Parent",
+	"navbar"	:	"YES",
+	"homePage"	:	{ "header" : "Kidz Diary", "name" : "home" }
+}

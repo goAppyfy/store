@@ -1,0 +1,19 @@
+{
+	"sections" : [
+	{
+		"sub_sections" : [
+  		{
+			"header" : "Login",
+	    	"forms" : [
+	    	{
+				"elements" : [
+				{ "type" : "text", "id" : "userName", "label" : "User Name" },
+				{ "type" : "password", "id" : "password", "label" : "Password" }
+				]
+			}
+	    	]
+	  	}
+  		]
+	}
+	]
+}

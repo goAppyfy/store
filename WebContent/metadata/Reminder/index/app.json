@@ -1,0 +1,6 @@
+{
+	"title"		:	"Reminders",
+	"navbar"	:	"HIDDEN",
+	"homePage"	:	{ "header" : "Reminders", "name" : "reminders" }
+	
+}

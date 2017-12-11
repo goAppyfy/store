@@ -1,0 +1,6 @@
+{
+	"title"		:	"aBig",
+	"navbar"	:	"BOTTOM",
+	"homePage"	:	{ "header" : "aBig", "name" : "home" }
+	
+}

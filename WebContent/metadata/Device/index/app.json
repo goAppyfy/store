@@ -1,0 +1,6 @@
+{
+	"title"		:	"Device",
+	"navbar"	:	"NO",
+	"homePage"	:	{ "header" : "Home", "name" : "home" }
+	
+}

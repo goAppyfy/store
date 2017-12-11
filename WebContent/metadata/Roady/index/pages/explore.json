@@ -1,0 +1,16 @@
+{
+
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				
+				"type" : "form",
+				"fields" : [ {
+
+					"type" : "map", "id" : "map", "placeholder" : "dZ", "size" : "12"
+
+				} ]
+			} ]
+	  	} ]
+	} ]
+}

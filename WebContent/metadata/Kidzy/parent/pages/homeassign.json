@@ -1,0 +1,14 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+  				"type" :  "table",
+				"data" : { "id" : "homeassign", "name" : "Information", "params" : { "type" : "homeassign" } },
+				"columns" : [ 
+					{ "header" :  "Subject", "name" : "sub" },
+					{ "header" :  "Assignment", "name" : "assign" }
+				]
+			} ]
+	  	} ]
+	} ]
+}

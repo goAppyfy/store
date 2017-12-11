@@ -1,0 +1,24 @@
+{
+	"parentPage" : "products",
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+  				"type" :  "table",
+  				"data" : { "id" : "Cart" },
+				"columns" : [ 
+					{ "header" :  "Name", "name" : "name" },
+					{ "header" :  "Price", "name" : "price" },
+					{ "header" :  "Quantity", "name" : "qty", "summary" : true },
+					{ "header" :  "Amount", "name" : "amt", "summary" : true }
+				]
+			} , {
+				"type" : "form",
+				"mode" : "action", 
+				"fields" : [ {
+					"type" : "button", "id" : "checkout", "value" : "Checkout", "style" : "success",
+					"action" : { "name" : "mdi-navigation-arrow-forward", "func" : "saveCart()" }
+				} ]
+			} ]
+	  	} ]
+	} ]
+}

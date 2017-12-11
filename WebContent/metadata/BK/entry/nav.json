@@ -1,0 +1,4 @@
+[
+	{ "title"	: "PO", "page"	: "purchase" },
+	{ "title"	: "SO", "page"	: "sales" }
+]

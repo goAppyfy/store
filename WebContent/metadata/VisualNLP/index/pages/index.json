@@ -1,0 +1,16 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				"type" : "form",
+				"shadow" : "off",
+				"fields" : [ 
+					{  "type" : "header", "id" : "header", "size" : 12, "text" : "Visual NLP" },
+					{  "type" : "para", "id" : "para", "size" : 12, "label" : "A Visual platform for building NLP tasks on frameworks like Apache Open NLP, Standford Core NLP" },
+					{  "type" : "link_button", "id" : "getstart", "value" : "Getting Started", "link" : "#/visualnlp/opennlp" , "target" : "self", "size" : 2 },
+					{  "type" : "link_button", "id" : "github", "value" : "View on GitHub", "link" : "https://github.com/MrIndiaDev/ai-backend", "target" : "_blank", "size" : 3}
+				]
+			} ]
+	  	} ]
+	} ]
+}

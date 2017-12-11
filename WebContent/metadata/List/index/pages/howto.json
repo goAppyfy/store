@@ -1,0 +1,22 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				"type" : "form",
+				"mode" : "readonly",
+				"shadow" : "off",
+				"fields1" : [ {
+					"type" : "label", "id" : "copylink", "label" : "Step 1 : Drag the below 'LinkedIn Summary' link to bookmark bar",  "size" : 12 } , {
+					"type" : "custom", "id" : "linkedlist" } , {
+					"type" : "label", "id" : "copylink", "label" : "Step 2 : Click (...) button in top right corner of your post and select 'Copy link to Post' option",  "size" : 12 } , {
+					"type" : "slider", "id" : "silder", "size" : 12 } , {
+					"type" : "label", "id" : "copylink", "label" : "Step 3 : Open the copied link in new browser tab/window",  "size" : 12 } , {
+					"type" : "label", "id" : "copylink", "label" : "Step 4 : Click the bookmark and save the summary file",  "size" : 12
+				} ],
+				"fields" : [ {
+					"type" : "custom", "id" : "linkedlist"
+				} ]
+			} ]
+	  	} ]
+	} ]
+}

@@ -1,0 +1,31 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				
+				"type" : "form",
+				"mode" : "search",
+				"data" : { "id" : "markets", "name" : "Places", "params" : { "type" : "Market" } },
+				"resultPage" : "markets",
+
+				"fields" : [ { 
+					"type" : "text", "id" : "name", "placeholder" : "Search by Name", "size" : "12"
+					} , {
+					"type" : "label", "id" : "browse", "label" : "Browse by State / City / Area", "size" : "12"
+					} , {
+					"type" : "select", "id" : "state", "label" : "State", 
+					"data" : { "id" : "stateOptions", "name" : "Places", "params" : { "type" : "State", "parent" : "India" } },
+					"chain" : {  "data" : { "id" : "cityOptions", "name" : "Places", "params" : { "type" : "City" } } }
+					} , {
+					"type" : "select", "id" : "city", "label" : "City",
+					"data" : { "id" : "cityOptions", "name" : "Places", "params" : { "type" : "City" } },
+					"chain" : {  "data" : { "id" : "areaOptions", "name" : "Places", "params" : { "type" : "Area" } } }
+					} , {
+					"type" : "select", "id" : "parent", "label" : "Area", 
+					"data" : { "id" : "areaOptions", "name" : "Places", "params" : { "type" : "Area" } }
+				} ]
+
+			} ]
+	  	} ]
+	} ]
+}

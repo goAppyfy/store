@@ -1,0 +1,14 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				"type" : "form",
+				"data" : { "id" : "notes", "name" : "Information", "params" : { "type" : "notes" } },
+				"fields" : [
+					{  "size" : 12, "type" : "label", "id" : "notes", "label" : "Note : " }
+				],
+				"mode" : "readonly"				
+			} ]
+	  	} ]
+	} ]
+}

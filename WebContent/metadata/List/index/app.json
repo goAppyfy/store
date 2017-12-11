@@ -1,0 +1,5 @@
+{
+	"title"		:	"List",
+	"navbar"	:	"HIDDEN",
+	"homePage"	:	{ "header" : "How to generate summary of your LinkedIn Post", "name" : "howto" }
+}

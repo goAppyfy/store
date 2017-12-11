@@ -1,0 +1,8 @@
+[
+	{ "header"	:  "Home Assignment", 		"name"	: "homeassign" 	},
+	{ "header"	:  "Highlight", 			"name"	: "highlight" 	},
+	{ "header"	:  "Upcoming Activity", 	"name"	: "upcoming" 	},
+	{ "header"	:  "Notes", 				"name"	: "notes" 		},
+	{ "header"	:  "Gallery", 				"name"	: "gallery" 	},
+	{ "header"	:  "Contact Us", 			"name"	: "contactus" 	}
+]

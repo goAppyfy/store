@@ -1,0 +1,4 @@
+[
+	{ "header"	: "Sentence Detector",	"name"	: "sent" },
+	{ "header"	: "Tokenizer",			"name"	: "token" }
+]

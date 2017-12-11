@@ -1,0 +1,5 @@
+{
+	"title"		:	"Local Market",
+	"navbar"	:	"NO",
+	"homePage"	:	{ "header" : "Local Market", "name" : "home" }
+}

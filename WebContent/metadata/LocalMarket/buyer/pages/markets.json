@@ -1,0 +1,13 @@
+{
+	"parentPage" : "market_search",
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+  				"type" :  "list",
+  				"data" : { "id" : "markets", "name" : "Places", "type" : "Market" },
+  				"chain" : { "data" : { "id" : "outlets", "name" : "Places", "type" : "Outlet" } },
+				"actionPage" : "outlets"
+			} ]
+	  	} ]
+	} ]
+}

@@ -1,0 +1,14 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				"type" : "table",
+				"data" : { "id" : "highlight", "name" : "ActivityLog", "params" : { "type" : "highlight" } },
+				"columns" : [ 
+					{ "header" :  "", "name" : "name" },
+					{ "header" :  "", "name" : "act" }
+				]
+			} ]
+	  	} ]
+	} ]
+}

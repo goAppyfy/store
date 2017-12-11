@@ -1,0 +1,19 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				"type" : "form",
+				"mode" : "readonly",
+				"fields" : [
+					{  "type" : "image", "id" : "image1", "path" : "1.png" }
+				]
+			},{
+				"type" : "form",
+				"mode" : "readonly",
+				"fields" : [
+					{  "type" : "image", "id" : "image2", "path" : "2.png" }
+				]
+			} ]
+	  	} ]
+	} ]
+}

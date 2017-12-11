@@ -1,0 +1,52 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				"type" : "form",
+				"header" : "Basic Info",
+				"fields" : [ 
+					{  "type" : "text", "id" : "no", "size" : 6, "label" : "Job Number" },
+					{  "type" : "text", "id" : "data", "size" : 6, "label" : "Job Date" },
+					{  "type" : "text", "id" : "po", "size" : 6, "label" : "Purchase Order" },
+					{  "type" : "text", "id" : "client", "size" : 6, "label" : "Client" }
+				]
+			} , {
+				"type" : "form",
+				"header" : "Location",
+				"fields" : [ 
+					{  "type" : "text", "id" : "line1", "size" : 6, "label" : "Address Line 1" },
+					{  "type" : "text", "id" : "line2", "size" : 6, "label" : "Address Line 2" },
+					{  "type" : "text", "id" : "street", "size" : 6, "label" : "Street" },
+					{  "type" : "text", "id" : "postal", "size" : 6, "label" : "Postal Code" },
+					{  "type" : "text", "id" : "country", "size" : 6, "label" : "Country" },
+					{  "type" : "text", "id" : "state", "size" : 6, "label" : "State" }
+				]
+			} , {
+				"type" : "form",
+				"header" : "Timing",
+				"fields" : [ 
+					{  "type" : "text", "id" : "inyard", "size" : 6, "label" : "In Yard" },
+					{  "type" : "text", "id" : "onsite", "size" : 6, "label" : "On Site" }
+				]
+			} , {
+				"type" : "table",
+				"data" : { "id" : "tools", "type" : "action", "rows" : [ 
+					{ "name" : "Resource 1 " },
+					{ "name" : "Resource 2 " }
+				] },
+				"columns" : [ 
+					{ "header" :  "Resources", "name" : "name" }
+				]
+			} , {
+				"type" : "table",
+				"data" : { "id" : "tools", "type" : "action", "rows" : [ 
+					{ "name" : "Vehicle 1 " },
+					{ "name" : "Vehicle 2 " }
+				] },
+				"columns" : [ 
+					{ "header" :  "Vehicles", "name" : "name" }
+				]
+			} ]
+	  	} ]
+	} ]
+}

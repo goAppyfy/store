@@ -1,0 +1,34 @@
+{
+	"rows" : [
+	{
+		"columns" : [
+ 	  	{
+ 	  		
+ 	  		"panels" : [
+ 	  		{
+ 	  			"type" : "form",
+				"fields" : [
+
+					{ "type" : "link_button", "size" : 12, "id" : "seller", "value" : "appyfy", "link" : "#/appyfy.org" },
+					{ "type" : "link_button", "size" : 12, "id" : "seller", "value" : "goAppyfy", "link" : "#/goAppyfy.com" },
+				
+					{ "type" : "link_button", "size" : 12, "id" : "seller", "value" : "Local Market", "link" : "#/LocalMarket/buyer" },
+					{ "type" : "link_button", "size" : 12, 	"id" : "seller", "value" : "Super Market", "link" : "#/SuperMarket/buyer" },
+					{ "type" : "link_button", "size" : 12, "id" : "buyer", "value" : "White Pages", "link" : "#/WhitePages/sub" },
+					
+					{ "type" : "link_button", "size" : 12, "id" : "buyer", "value" : "Kidz Diary", "link" : "#/KidzDiary/parent" },
+
+					{ "type" : "link_button", "size" : 12, "id" : "seller", "value" : "Roady", "link" : "#/Roady/index" },
+
+					{ "type" : "link_button", "size" : 12, "id" : "seller", "value" : "Device", "link" : "#/Device/index" }
+					
+				],
+				
+				"mode" : "readonly"
+			}
+			]
+	  	}
+  		]
+	}
+	]
+}

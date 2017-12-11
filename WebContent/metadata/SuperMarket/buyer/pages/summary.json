@@ -1,0 +1,20 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				
+				"type" : "form",
+				"mode" : "view", 
+
+				"fields" : [ {
+					"type" : "label", "id" : "msg", "label" : "Your Cart has been submitted to counter for billing.", "size" : 12
+				} , {
+					"type" : "label", "id" : "token", "label" : "Your Token No. is"
+				} , {
+					"type" : "text", "id" : "cartToken" 
+				} ]
+
+			} ]
+	  	} ]
+	} ]
+}

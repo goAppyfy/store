@@ -1,0 +1,22 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				"type" : "form",
+				"fields" : [ {  "type" : "slider", "id" : "slider", "size" : 12 } ],
+				"mode" : "readonly"
+			} , {
+				"type" : "form",
+				"shadow" : "off",
+				"fields" : [
+					{  "type" : "label", "id" : "addressee", "label" : "Dear Parents, ", "size" : "12" },
+					{  "type" : "para", "id" : "speech", "value" : "Be it a half bloomed rose or a lily with a dew drop, flowers hold the magic of brightening everyone mood within no seconds. Be it our lovely mummies, or our grannies none can deny to this. Just like these flowers, our little bundle of joy-our children, together form the world's best bouquet which will be treasured always. This week will be dedicated to flowers and our little children will be taught about the importance they hold in each one's life.", "size" : "12" },
+					{  "type" : "label", "id" : "educator", "label" : "<TEACHER>", "size" : "6"  },
+					{  "type" : "label", "id" : "class", "label" : "<CLASS>", "size" : 12  },
+					{  "type" : "date1", "id" : "date", "placeholder" : "Select Date", "size" : 12 }
+				],
+				"mode" : "readonly"				
+			} ]
+	  	} ]
+	} ]
+}

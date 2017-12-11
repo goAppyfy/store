@@ -1,0 +1,20 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+  				"id" : "carts",
+  				"type" :  "table",
+  				"data" : { "id" : "carts", "name" : "Carts", "params" : { "type" : "Pending" } },
+  				"refresh" : true,
+				"columns" : [ 
+					{ "header" :  "Token No.", "name" : "token_no" },
+					{ "header" :  "Quantity", "name" : "qty", "summary" : true },
+					{ "header" :  "Amount", "name" : "amt", "summary" : true }
+				],
+				"action" : { 
+					"secondary" : { "name" : "mdi-av-play-arrow", "func" : "processCart" }
+				}
+			} ]
+	  	} ]
+	} ]
+}

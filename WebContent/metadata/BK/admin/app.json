@@ -1,0 +1,6 @@
+{
+	"title"		:	"BK-Admin",
+	"navbar"	:	"LEFT",
+	"homePage"	:	{ "header" : "Product", "name" : "product" }
+	
+}

@@ -1,0 +1,14 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				"id" : "list",
+  				"type" :  "list",
+  				"data" : { "id" : "users", "name" : "Users", "source" : "LOCAL"  },
+				"action" : { 
+					"secondary" : { "name" : "", "func" : "addToList()" }
+				}
+			} ]
+	  	} ]
+	} ]
+}

@@ -1,0 +1,42 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+ 	  		"panels" : [ {
+				"id" : "apps", "type" :  "list",
+  				"data" : { "id" : "apps", "heading" : "name", "text" : "desc", "rows" : [ { 
+  					"name" : "Device", "desc" : "Demo app for testing device features", "link" : "#/Device/index" } , {
+  					"name" : "List", "desc" : "Universal List", "path" : "List_logo.png", "link" : "#/List/index" } ] },
+				"action" : { "secondary" : { "name" : "mdi-action-get-app", "func" : "openLinkAction" } }
+			} , {
+				"id" : "apps", "type" :  "list",
+  				"data" : { "id" : "apps", "heading" : "name", "text" : "desc", "rows" : [ {
+					"name" : "appyfy.org", "desc" : "", "path" : "appyfy_logo.png", "link" : "#/appyfy.org" } , {
+					"name" : "goAppyfy.org", "desc" : "", "path" : "goAppyfy_logo.png", "link" : "#/goAppyfy.com" } ]
+  				},
+				"action" : { "secondary" : { "name" : "mdi-action-get-app", "func" : "openLinkAction" } }
+			} , {
+				"id" : "apps", "type" :  "list",
+  				"data" : { "id" : "apps", "heading" : "name", "text" : "desc", "rows" : [ {
+					"name" : "Local", "desc" : "Local Market Hub", "path" : "Local_logo.png", "link" : "#/LocalMarket/buyer" } , {
+					"name" : "Super", "desc" : "Super Market Hub", "path" : "Super_logo.png", "link" : "#/SuperMarket/buyer" } ]
+  				},
+				"action" : { "secondary" : { "name" : "mdi-action-get-app", "func" : "openLinkAction" } }
+			} , {
+				"id" : "apps", "type" :  "list",
+  				"data" : { "id" : "apps", "heading" : "name", "text" : "desc", "rows" : [ {
+					"name" : "Kidzy", "desc" : "Parent-Teacher Engagement Tool", "path" : "Kidzy_logo.png", "link" : "#/Kidzy/parent" } , {
+					"name" : "Roady", "desc" : "Road conditions tracking Tool", "path" : "Roady_logo.png", "link" : "#/Roady/index" } ]
+  				},
+				"action" : { "secondary" : { "name" : "mdi-action-get-app", "func" : "openLinkAction" } }
+			} , {
+				"id" : "apps",
+  				"type" :  "list",
+  				"data" : { "id" : "apps", "heading" : "name", "text" : "desc", "rows" : [ {
+					"name" : "White Pages", "desc" : "Classified in white pages", "path" : "WP_logo.png", "link" : "#/WhitePages/sub" } , {
+					"name" : "Reminder", "desc" : "Remiders for Whatsapp", "path" : "RW_logo.png", "link" : "#/Reminder/index" } ]
+  				},
+				"action" : { "secondary" : { "name" : "mdi-action-get-app", "func" : "openLinkAction" } }
+			} ]
+	  	} ]
+	} ]
+}

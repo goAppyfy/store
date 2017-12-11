@@ -1,0 +1,14 @@
+{
+	"parentPage" : "markets",
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+  				"type" :  "list",
+  				"data" : { "name" : "Places", "type" : "Outlet" },
+  				"chain" : { "data" : { "name" : "Products", "type" : "Display" } },
+				"headers" : [ "Name", "Outlet" ],
+				"actionPage" : "product_search"
+			} ]
+	  	} ]
+	} ]
+}

@@ -1,0 +1,23 @@
+{
+	"parentPage" : "product_search",
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				"type" : "form",
+				"mode" : "action", 
+				"listPage" : "cart",
+				"fields" : [ {
+					"type" : "button", "id" : "cart", "value" : "Cart", "style" : "success", "badge" : "cartSize",
+					"action" : { "name" : "mdi-action-shopping-cart", "func" : "loadPage('cart')" }
+				} ]
+			} , {
+				"id" : "products",
+  				"type" :  "list",
+  				"data" : { "id" : "products", "name" : "Products" },
+				"action" : { 
+					"secondary" : { "name" : "mdi-action-add-shopping-cart", "func" : "addToCart" }
+				}
+			} ]
+	  	} ]
+	} ]
+}

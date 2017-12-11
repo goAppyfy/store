@@ -1,0 +1,43 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				
+				"type" : "form",
+				"mode" : "search",
+				"data" : { "id" : "results", "name" : "Places" },
+				"resultPage" : "results",
+				"fields" : [ 
+					{
+					"type" : "text", "id" : "name", "placeholder" : "Search by Name", "size" : "12"
+					
+					} , {
+					"type1" : "label", "id" : "browse", "label1" : "Browse by State / City / Area", "size" : "12"
+					} , {
+					
+					"type" : "select", "id" : "state", "label" : "State", "size" : "4",
+					"data" : { "id" : "stateOptions", "name" : "Places", "params" : { "type" : "State", "parent" : "India" } },
+					"chain" : {  "data" : { "id" : "cityOptions", "name" : "Places", "params" : { "type" : "City" } } }
+					} , {
+					"type" : "select", "id" : "city", "label" : "City", "size" : "4",
+					"data" : { "id" : "cityOptions", "name" : "Places", "params" : { "type" : "City" } },
+					"chain" : {  "data" : { "id" : "areaOptions", "name" : "Places", "params" : { "type" : "Area" } } }
+					} , {
+					"type" : "select", "id" : "parent", "label" : "Area", "size" : "4",
+					"data" : { "id" : "areaOptions", "name" : "Places", "params" : { "type" : "Area" } }
+					
+					} , {
+					"type1" : "label", "id" : "browse2", "label1" : "Browse by Category / Sub Category", "size" : "12"
+					
+					} , {
+					"type" : "select", "id" : "cat", "label" : "Category", 
+					"data" : { "id" : "catOptions", "name" : "PlaceTypeValues", "params" : { "type" : "Cat", "parent" : "" } },
+					"chain" : { "data" : { "id": "sCatOptions", "name" : "PlaceTypeValues", "params" : { "type" : "SubCat" } } }
+					} , {
+					"type" : "select", "id" : "sCat", "label" : "Sub Category", 
+					"data" : { "id" : "sCatOptions", "name" : "PlaceTypeValues" }
+				} ]
+			} ]
+	  	} ]
+	} ]
+}

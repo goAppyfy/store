@@ -1,0 +1,7 @@
+[
+	{	"header"	:  "Features",		"name"		: "features"	} , 
+	{	"header"	:  "Samples",		"name"		: "samples"		} , 
+	{	"header"	:  "Testimonials",	"name"		: "testi"		} , 
+	{	"header"	:  "About Us",		"name"		: "about"		} , 
+	{	"header"	:  "Contact Us",	"name"		: "contact"		}
+]

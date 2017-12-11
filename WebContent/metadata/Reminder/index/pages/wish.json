@@ -1,0 +1,25 @@
+{
+
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				"type" : "form",
+				"fields" : [ {
+					"type" : "button", "id" : "cam", "value" : "Camera", "action" : { "func" : "capture('slider0')" } , "size" : "6"
+					} , {
+					"type" : "button", "id" : "gallery", "value" : "Gallery", "action" : { "func" : "selectFile('slider0')" } , "size" : "6"
+					} , {
+					"type" : "slider", "id" : "slider", "size" : 12
+				} ]
+			} , {
+				"type" : "form",
+				"data" : { "id" : "contact" },
+				"fields" : [ {
+					"type" : "textarea", "rows" : 2, "id" : "wishes", "value" : "Many Many Happy Returns of the Day", "size" : "12"
+					} , {
+					"type" : "button", "id" : "Wish", "value" : "Wish you Happy Birthday", "action" : { "func" : "share()" } , "size" : "9", "offset" : 1
+				} ]
+			} ]
+	  	} ]
+	} ]
+}

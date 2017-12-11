@@ -1,0 +1,18 @@
+{
+	"rows" : [ {
+		"columns" : [ {
+			"offset" : 3,
+  			"panels" : [ {
+				"type" : "form",
+				"fields" : [
+					{  "type" : "image", "id" : "logo", "path" : "logo.png", "size" : 1, "offset" : 1 },
+					{  "size" : 6 },
+					{  "type" : "header", "id" : "header", "text" : "goAppyfy", "size" : 2, "offset" : 3 },
+					{  "type" : "label", "id" : "desc", "label" : "We are truly-madly committed to build your App using Appyfy Framework", "size" : 12 }
+				],
+				"mode" : "readonly",
+				"shadow" : "off"
+			} ]
+	  	} ]
+	} ]
+}

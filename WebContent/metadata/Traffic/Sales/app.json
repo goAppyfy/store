@@ -1,0 +1,6 @@
+{
+	"title"		:	"Traffic - Sales",
+	"navbar"	:	"YES",
+	"footer"	:	"HIDDEN",
+	"homePage"	:	{ "header" : "Job Order", "name" : "job" }
+}

@@ -1,0 +1,5 @@
+{
+	"title"		:	"Appyfy",
+	"navbar"	:	"NO",
+	"homePage"	:	{ "header"	:  "Home",	"name"	: "home" }
+}
