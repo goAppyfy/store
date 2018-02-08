@@ -1,0 +1,28 @@
+{
+
+	"header" : "Manage Accounts",
+
+	"rows" : [ {
+		"columns" : [ {
+  			"panels" : [ {
+				
+				"type" : "table",
+				"data" : { "id" : "accounts", "name" : "Accounts" },
+				"action" : { 
+					"secondary" : { "name" : "mdi-editor-mode-edit", "func" : "doFetch" }
+				} ,
+				"editPage" : "edit_account",
+				
+				"columns" : [ { 
+					"type" : "text", "name" : "code", "header" : "Code"
+				} , { 
+					"type" : "text", "name" : "name", "header" : "Name"
+				} , { 
+					"type" : "text", "name" : "type", "header" : "Type"
+				} , { 
+					"type" : "text", "name" : "group", "header" : "Group"
+				} ]
+			} ]
+	  	} ]
+	} ]
+}

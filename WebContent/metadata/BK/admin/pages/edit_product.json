@@ -1,31 +1,33 @@
 {
+
+	"header" : "Create/Update Product",
+	"mode"	: "edit",
+
 	"rows" : [ {
 		"columns" : [ {
   			"panels" : [ {
 				
 				"type" : "form",
-				"mode" : "edit",
-				"data" : { "id" : "accounts", "name" : "Account" },
+				"data" : { "id" : "products", "name" : "Products" },
 
 				"fields" : [ {
+					"type" : "label", "id" : "basic", "label" : "Basic Information", "size" : "12"
+				} , {
 					"type" : "text", "id" : "code", "placeholder" : "Code", "size" : "4"
 				} , {
 					"type" : "text", "id" : "name", "placeholder" : "Name", "size" : "8"
 				} , {
-					"type" : "text", "id" : "type", "placeholder" : "Type", "size" : "6"
+					"type" : "select", "id" : "type", "placeholder" : "Type", "size" : "6", 
+					"data" : { "id" : "productTypes", "name" : "ProductTypes" }
 				} , {
-					"type" : "text", "id" : "group", "placeholder" : "Category", "size" : "6"
+					"type" : "select", "id" : "cat", "placeholder" : "Category", "size" : "6",
+					"data" : { "id" : "productCategories", "name" : "ProductCategories" }
+				} , {	
+					"type" : "select", "id" : "uom", "placeholder" : "Unit", "size" : "4",
+					"data" : { "id" : "productUOMs", "name" : "ProductUOMs" }
 				} , {
-					"type" : "text", "id" : "uom", "placeholder" : "Unit", "size" : "4"
-				} ]
-			} , {
-				
-				"header" : "Accounts",
-				"type" : "form",
-				"mode" : "edit",
-				"data" : { "id" : "productAccounts", "name" : "ProductAccount" },
-
-				"fields" : [ {
+					"type" : "label", "id" : "account", "label" : "Accounts", "size" : "12"
+				} , {
 					"type" : "text", "id" : "sale", "placeholder" : "Sale Account", "size" : "6"
 				} , {
 					"type" : "text", "id" : "purchase", "placeholder" : "Purchase Account", "size" : "6"
@@ -33,15 +35,9 @@
 					"type" : "text", "id" : "expense", "placeholder" : "Expense Account", "size" : "6"
 				} , {
 					"type" : "text", "id" : "other", "placeholder" : "Other Account", "size" : "6"
-				} ]
-			} , {
-				
-				"header" : "Batch Information",
-				"type" : "form",
-				"mode" : "edit",
-				"data" : { "id" : "productBatch", "name" : "ProductBatch" },
-
-				"fields" : [ {
+				} , {
+					"type" : "label", "id" : "batchInfo", "label" : "Batch Information", "size" : "12"
+				} , {
 					"type" : "text", "id" : "batch", "placeholder" : "Batch", "size" : "12"
 				} , {
 					"type" : "text", "id" : "mfg", "placeholder" : "Mfg. Date", "size" : "6"

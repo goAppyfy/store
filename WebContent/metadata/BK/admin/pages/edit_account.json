@@ -1,13 +1,18 @@
 {
+
+	"header" : "Create/Update Account",
+	"mode"	: "edit",
+
 	"rows" : [ {
 		"columns" : [ {
   			"panels" : [ {
 				
 				"type" : "form",
-				"mode" : "edit",
-				"data" : { "id" : "accounts", "name" : "Account" },
+				"data" : { "id" : "accounts", "name" : "Accounts" },
 
 				"fields" : [ {
+					"type" : "label", "id" : "basic", "label" : "Basic Information", "size" : "12"
+				} , {
 					"type" : "text", "id" : "code", "placeholder" : "Code", "size" : "4"
 				} , {
 					"type" : "text", "id" : "name", "placeholder" : "Name", "size" : "8"
@@ -19,15 +24,9 @@
 					"type" : "text", "id" : "type", "placeholder" : "Type", "size" : "6"
 				} , {
 					"type" : "text", "id" : "group", "placeholder" : "Group", "size" : "6"
-				} ]
-			} , {
-				
-				"header" : "Address",
-				"type" : "form",
-				"mode" : "edit",
-				"data" : { "id" : "address", "name" : "Address" },
-
-				"fields" : [ { 
+				} , {
+					"type" : "label", "id" : "adress", "label" : "Adress", "size" : "12"
+				} , {
 					"type" : "text", "id" : "line1", "placeholder" : "Line 1", "size" : "6"
 				}, { 
 					"type" : "text", "id" : "line2", "placeholder" : "Line 2", "size" : "6"
@@ -39,15 +38,9 @@
 					"type" : "text", "id" : "postal", "placeholder" : "Postal Code", "size" : "6"
 				} , { 
 					"type" : "text", "id" : "phone", "placeholder" : "Phone No.", "size" : "6"
-				} ]
-			} , {
-				
-				"header" : "Legal",
-				"type" : "form",
-				"mode" : "edit",
-				"data" : { "id" : "legal", "name" : "Legal" },
-
-				"fields" : [ { 
+				} , {
+					"type" : "label", "id" : "legal", "label" : "Legal", "size" : "12"
+				} , { 
 					"type" : "text", "id" : "gst", "placeholder" : "GST No.", "size" : "6"
 				}, { 
 					"type" : "text", "id" : "cst", "placeholder" : "CST/TIN No.", "size" : "6"
@@ -57,15 +50,9 @@
 					"type" : "text", "id" : "adhaar", "placeholder" : "Adhaar No.", "size" : "6"
 				} , { 
 					"type" : "text", "id" : "phone", "placeholder" : "Phone No.", "size" : "6"
-				} ]
-			} , {
-				
-				"header" : "Bank",
-				"type" : "form",
-				"mode" : "edit",
-				"data" : { "id" : "bank", "name" : "Bank" },
-
-				"fields" : [ { 
+				} , {
+					"type" : "label", "id" : "bank", "label" : "Bank", "size" : "12"
+				} , {
 					"type" : "text", "id" : "bankName", "placeholder" : "Bank Name", "size" : "6"
 				}, { 
 					"type" : "text", "id" : "bankCode", "placeholder" : "Bank Code", "size" : "6"
