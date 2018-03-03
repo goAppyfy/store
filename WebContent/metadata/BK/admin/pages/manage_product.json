@@ -9,18 +9,18 @@
 				"type" : "table",
 				"data" : { "id" : "products", "name" : "Products" },
 				"action" : { 
-					"secondary" : { "name" : "mdi-editor-mode-edit", "func" : "doFetch" }
+					"secondary" : { "name" : "mdi-editor-mode-edit", 
+						"func" : "doFetch", "params" : { "name" : "product", "data" : { "id" : "product", "name" : "Products" } }  }
 				} ,
-				"editPage" : "edit_product",
 				
 				"columns" : [ { 
 					"type" : "text", "name" : "code", "header" : "Code"
 				} , { 
 					"type" : "text", "name" : "name", "header" : "Name"
 				} , { 
-					"type" : "text", "name" : "type", "header" : "Type"
+					"type" : "text", "name" : "type", "header" : "Type", "expr" : "name"
 				} , { 
-					"type" : "text", "name" : "cat", "header" : "Category"
+					"type" : "text", "name" : "cat", "header" : "Category", "expr" : "name"
 				} ]
 			} ]
 	  	} ]

@@ -2,13 +2,13 @@
 	{
 		"header"	: "Account", "name"	: "account", "links" :
 		[ {
-			"header"	: "Add Account", "name"	: "edit_account" } ,
+			"header"	: "Add Account", "name"	: "account" } ,
 			{ "header"	: "Manage Accounts", "name"	: "manage_account" 
 		} ]
 	} , {
 		"header"	: "Product", "name"	: "product", "links" :
 		[ {
-			"header"	: "Add Product", "name"	: "edit_product" } ,
+			"header"	: "Add Product", "name"	: "product" } ,
 			{ "header"	: "Manage Products", "name"	: "manage_product" 
 		} ]
 	}

@@ -9,9 +9,9 @@
 				"type" : "table",
 				"data" : { "id" : "accounts", "name" : "Accounts" },
 				"action" : { 
-					"secondary" : { "name" : "mdi-editor-mode-edit", "func" : "doFetch" }
+					"secondary" : { "name" : "mdi-editor-mode-edit", 
+						"func" : "doFetch", "params" : { "name" : "account", "data" : { "id" : "account", "name" : "Accounts" } } }
 				} ,
-				"editPage" : "edit_account",
 				
 				"columns" : [ { 
 					"type" : "text", "name" : "code", "header" : "Code"

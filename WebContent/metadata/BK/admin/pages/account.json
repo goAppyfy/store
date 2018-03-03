@@ -8,7 +8,7 @@
   			"panels" : [ {
 				
 				"type" : "form",
-				"data" : { "id" : "accounts", "name" : "Accounts" },
+				"data" : { "id" : "account", "name" : "Accounts" },
 
 				"fields" : [ {
 					"type" : "label", "id" : "basic", "label" : "Basic Information", "size" : "12"

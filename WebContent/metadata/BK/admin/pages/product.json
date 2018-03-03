@@ -8,34 +8,41 @@
   			"panels" : [ {
 				
 				"type" : "form",
-				"data" : { "id" : "products", "name" : "Products" },
+				"data" : { "id" : "product", "name" : "Products" },
 
 				"fields" : [ {
+				
 					"type" : "label", "id" : "basic", "label" : "Basic Information", "size" : "12"
 				} , {
 					"type" : "text", "id" : "code", "placeholder" : "Code", "size" : "4"
 				} , {
 					"type" : "text", "id" : "name", "placeholder" : "Name", "size" : "8"
 				} , {
-					"type" : "select", "id" : "type", "placeholder" : "Type", "size" : "6", 
+					"type" : "select", "id" : "type", "label" : "Type", "size" : "6", 
 					"data" : { "id" : "productTypes", "name" : "ProductTypes" }
 				} , {
-					"type" : "select", "id" : "cat", "placeholder" : "Category", "size" : "6",
+					"type" : "select", "id" : "cat", "label" :"Category", "size" : "6",
 					"data" : { "id" : "productCategories", "name" : "ProductCategories" }
 				} , {	
-					"type" : "select", "id" : "uom", "placeholder" : "Unit", "size" : "4",
+					"type" : "select", "id" : "uom", "label" : "Unit", "size" : "4",
 					"data" : { "id" : "productUOMs", "name" : "ProductUOMs" }
 				} , {
+				
 					"type" : "label", "id" : "account", "label" : "Accounts", "size" : "12"
 				} , {
-					"type" : "text", "id" : "sale", "placeholder" : "Sale Account", "size" : "6"
+					"type" : "lookup", "id" : "sale", "placeholder" : "Sale Account", "size" : "6",
+					"data" : { "id" : "accounts", "name" : "Accounts" }
 				} , {
-					"type" : "text", "id" : "purchase", "placeholder" : "Purchase Account", "size" : "6"
+					"type" : "lookup", "id" : "purchase", "placeholder" : "Purchase Account", "size" : "6",
+					"data" : { "id" : "accounts", "name" : "Accounts" }
 				} , {
-					"type" : "text", "id" : "expense", "placeholder" : "Expense Account", "size" : "6"
+					"type" : "lookup", "id" : "expense", "placeholder" : "Expense Account", "size" : "6",
+					"data" : { "id" : "accounts", "name" : "Accounts" }
 				} , {
-					"type" : "text", "id" : "other", "placeholder" : "Other Account", "size" : "6"
+					"type" : "lookup", "id" : "other", "placeholder" : "Other Account", "size" : "6",
+					"data" : { "id" : "accounts", "name" : "Accounts" }
 				} , {
+				
 					"type" : "label", "id" : "batchInfo", "label" : "Batch Information", "size" : "12"
 				} , {
 					"type" : "text", "id" : "batch", "placeholder" : "Batch", "size" : "12"
